@@ -9,7 +9,8 @@ O programa é reconhecido pelo MEC e oferece título de especialista, com certif
 ### - [Infraestrutura Como Código com Terraform, AWS, Azure e Databricks](https://www.datascienceacademy.com.br/course/infraestrutura-como-codigo-com-terraform-aws-azure-e-databricks) 
 __STATUS: EM ANDAMENTO__ \
 Carga horária: 72h \
-Logbook das Principais Atividades Práticas \
+
+__Logbook das Principais Atividades Práticas__ \
 Lab 1 - IaC Stack - Automatizando a Infraestrutura de Instâncias EC2 na Nuvem AWS com Terraform \
 Lab 2 - IaC Stack - Automatizando a Infraestrutura na Nuvem AWS com Variáveis no Terraform \
 Lab 3 - IaC Stack - Usando Terraform Provisioners e Outras Tarefas de Automação \
@@ -24,7 +25,8 @@ Projeto 5 - Databricks Cluster Deploy com Terraform Para Processamento Distribu�
 ### - [Modelagem, Implementação e Governança de Data Warehouses](https://www.datascienceacademy.com.br/course/modelagem-implementacao-e-governanca-de-data-warehouses)
 __STATUS: NÃO INICIADA__ \
 Carga horária: 80h \
-Logbook das Principais Atividades Práticas \
+
+__Logbook das Principais Atividades Práticas__ \
 Lab 1 - Automação da Infraestrutura de Consultas SQL com Terraform e BigQuery no Google Cloud Platform \
 Lab 2 - Usando o ChatGPT Para Construir Um Modelo Dimensional de Forma Segura \
 Lab 3 - Airbyte e SQL Para ETL no Data Warehouse em Ambiente Local \
@@ -37,7 +39,8 @@ Projeto 2 - Modelagem e Implementação de Data Warehouse na Nuvem com Amazon Re
 ### - [Engenharia de Dados com Airbyte, DBT e SQL](https://www.datascienceacademy.com.br/course/engenharia-de-dados-com-airbyte-dbt-e-sql)
 __STATUS: NÃO INICIADA__ \
 Carga horária: 96h \
-Logbook das Principais Atividades Práticas \
+
+__Logbook das Principais Atividades Práticas__ \
 Lab 1 - Movimentação de Dados Entre Bancos de Dados com Airbyte \
 Lab 2 - Construindo Pipeline EL(T) com Change Data Capture (CDC) \
 Lab 3 - Carga e Sincronização Incremental de Dados com Airbyte \
@@ -52,7 +55,8 @@ Projeto Final de Integração Entre Airbyte, DBT e SQL
 ### - [Armazenamento e Gestão de Dados com Data Lake e Data Lakehouse](https://www.datascienceacademy.com.br/course/armazenamento-e-gestao-de-dados-com-data-lake-e-data-lakehouse)
 __STATUS: NÃO INICIADA__ \
 Carga Horária: 86h \
-Logbook das Principais Atividades Práticas \
+
+__Logbook das Principais Atividades Práticas__ \
 Lab 1 - Plano de Custo Para Implementar Data Lakes e Data Lakehouses em Diferentes Cenários \
 Lab 2 - Design e Implementação de Data Lake Local Para Armazenamento e Processamento Distribuído \
 Lab 3 - Design e Implementação de Data Lake na Nuvem com IaC e Terraform \
@@ -65,7 +69,8 @@ Projeto de Implementação de Data Lakehouse com Databricks e Delta Lake
 ### - [PySpark e Apache Kafka Para Processamento de Dados em Batch e Streaming](https://www.datascienceacademy.com.br/course/pyspark-e-apache-kafka-para-processamento-de-dados-em-batch-e-streaming)
 __STATUS: NÃO INICIADA__ \
 Carga horária: 90h \
-Logbook das Principais Atividades Práticas \
+
+__Logbook das Principais Atividades Práticas__ \
 Projeto 1 - Pipeline PySpark Para Extrair, Transformar e Carregar Arquivos JSON em Banco de Dados \
 Projeto 2 - 50 Scripts de Otimização de Processamento e Análise de Dados em Cluster Spark \
 Projeto 3 - Pipeline de Limpeza e Transformação Para Aplicações de IA com PySpark SQL \
