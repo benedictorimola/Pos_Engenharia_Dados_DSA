@@ -7,6 +7,7 @@ O programa é reconhecido pelo MEC e oferece título de especialista, com certif
 
 ## Disciplinas 
 ### - [Infraestrutura Como Código com Terraform, AWS, Azure e Databricks](https://www.datascienceacademy.com.br/course/infraestrutura-como-codigo-com-terraform-aws-azure-e-databricks) 
+__STATUS: EM ANDAMENTO__ \
 Carga horária: 72h \
 Logbook das Principais Atividades Práticas \
 Lab 1 - IaC Stack - Automatizando a Infraestrutura de Instâncias EC2 na Nuvem AWS com Terraform \
@@ -21,6 +22,7 @@ Projeto 4 - AWS e Azure Multi-Cloud Deploy com Terraform \
 Projeto 5 - Databricks Cluster Deploy com Terraform Para Processamento Distribuído
 
 ### - [Modelagem, Implementação e Governança de Data Warehouses](https://www.datascienceacademy.com.br/course/modelagem-implementacao-e-governanca-de-data-warehouses)
+__STATUS: NÃO INICIADA__ \
 Carga horária: 80h \
 Logbook das Principais Atividades Práticas \
 Lab 1 - Automação da Infraestrutura de Consultas SQL com Terraform e BigQuery no Google Cloud Platform \
@@ -33,6 +35,7 @@ Projeto 1 - Modelagem e Implementação de Um Data Warehouse Local \
 Projeto 2 - Modelagem e Implementação de Data Warehouse na Nuvem com Amazon Redshift e Terraform
 
 ### - [Engenharia de Dados com Airbyte, DBT e SQL](https://www.datascienceacademy.com.br/course/engenharia-de-dados-com-airbyte-dbt-e-sql)
+__STATUS: NÃO INICIADA__ \
 Carga horária: 96h \
 Logbook das Principais Atividades Práticas \
 Lab 1 - Movimentação de Dados Entre Bancos de Dados com Airbyte \
@@ -47,6 +50,7 @@ Lab 9 - Analytics Engineering e Linhagem de Dados com Python, DBT, BigQuery e Lo
 Projeto Final de Integração Entre Airbyte, DBT e SQL
 
 ### - [Armazenamento e Gestão de Dados com Data Lake e Data Lakehouse](https://www.datascienceacademy.com.br/course/armazenamento-e-gestao-de-dados-com-data-lake-e-data-lakehouse)
+__STATUS: NÃO INICIADA__ \
 Carga Horária: 86h \
 Logbook das Principais Atividades Práticas \
 Lab 1 - Plano de Custo Para Implementar Data Lakes e Data Lakehouses em Diferentes Cenários \
@@ -59,6 +63,7 @@ Lab 7 - Delta Live Tables SQL Pipeline e Integração de Dados Batch e Streaming
 Projeto de Implementação de Data Lakehouse com Databricks e Delta Lake
 
 ### - [PySpark e Apache Kafka Para Processamento de Dados em Batch e Streaming](https://www.datascienceacademy.com.br/course/pyspark-e-apache-kafka-para-processamento-de-dados-em-batch-e-streaming)
+__STATUS: NÃO INICIADA__ \
 Carga horária: 90h \
 Logbook das Principais Atividades Práticas \
 Projeto 1 - Pipeline PySpark Para Extrair, Transformar e Carregar Arquivos JSON em Banco de Dados \
