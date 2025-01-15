@@ -1,0 +1,57 @@
+# introdução ao docker
+
+# 1. Hello-word
+# Será criada uma imagem padrão do pr´prio docker.  Não há necesidade de build
+docker run hello-word
+
+# 2. Criando um servidor web
+docker run -d -p 8080:80 nginx
+# -d  (detached - executa em backgroud)
+# -p  (mapeamento de porta. "porta máquina local:porta container")
+
+# 3. Customizando a Criação de Um Banco de Dados
+docker run --name database -p 5435:5432 -e POSTGRES_USER=fed -e POSTGRES_PASSWORD=fed -e POSTGRES_DB=feddb -d postgres:16.0
+# --name - nome do container
+# -p 6435 ( local) e 5432(padrão do PostGres)
+# -e -- variável de ambiente
+# -d  (detached - executa em backgroud)
+# postgres:16.0  indica a versão do PostGres.  Sempre acesse hub.docker.com para identificar a versão
+
+# 4. Usando Dockerfile
+# 4.1. Crie um arquivo chamado Dockerfile e coloque o conteúdo abaixo:
+
+FROM python:3.11-slim
+
+COPY teste1.py /teste1.py
+
+CMD ["python", "/teste1.py"]
+# FROM python:3.11-slim: nesse caso ´s solicitado ao Docker que recupere uma imagem já existente do python
+
+# 4.2. Crie um arquivo chamado teste1.py com o seguinte conteúdo:
+print("Olá, Bem-Vindo(a) ao Docker com a DSA!")
+
+# 4.3. Comstrua a imagem
+docker build -t bamr-image .
+
+# 4.4. Executar o container
+docker run --name bamrcontainer bamr-image
+
+# 5. Docker compose
+# 5.1. Crie o arquivo docker-compose.yml com o conteúdo abaixo:
+version: '3'
+
+services:
+  web1:
+    image: nginx
+    ports:
+      - "8080:80"
+
+  web2:
+    image: nginx
+    ports:
+      - "8081:80"
+
+# 5.2 Execute no teminal os comandos abaixo:
+docker compose up -d
+docker compose down  # aqui o container será removido
+
