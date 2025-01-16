@@ -1,4 +1,4 @@
-# Os comandos docker são em letras maiúsculas
+# Os comandos docker são em letras maiúsculas.
 # Usar a imagem oficial do Ubuntu
 FROM ubuntu:latest
 
