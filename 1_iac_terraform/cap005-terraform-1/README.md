@@ -1,4 +1,4 @@
-## Fundamentoe Terraform - parte 1
+## Fundamentos Terraform - parte 1
 
 __lab2__: automatizando a infraestrutura na AWS com ariáveis no terraform
 
@@ -24,7 +24,7 @@ aws --version
 ``` bash
 # Após a criação do container, executar as instruções abaixo:
 - acesse a AWS com suas credenciais
-- navegue até o diretório onde estálocalizo o arquivo main.tf
+- navegue até o diretório onde está localizado o arquivo main.tf
 Execute os comandos:
 terraform init
 
