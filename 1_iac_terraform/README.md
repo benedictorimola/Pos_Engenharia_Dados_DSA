@@ -33,6 +33,11 @@ Projeto 5 - Databricks Cluster Deploy com Terraform Para Processamento Distribu�
 
 __Links Uteis__ \
 [SIte Terraform](https://www.terraform.io/) \
+[Developer Terraform](https://developer.hashicorp.com/terraform)
 [Versões do Terraform](https://releases.hashicorp.com/terraform) \
 [Terraform Registry](https://registry.terraform.io/)
-- O Terraform Registry é um repositório público onde você pode encontrar e compartilhar módulos Terraform pré-construídos. 
+- O Terraform Registry é um repositório público onde você pode encontrar e compartilhar módulos Terraform pré-construídos. \
+[Providers](https://registry.terraform.io/browse/providers) \
+[Source Providers AWS](hashicorp/terraform-provider-aws) - git hub \
+[Terraform Resouruces](https://registry.terraform.io/browse/modules) - permite filtrar os recursos a serem utilizados \
+[Core Terraform Workflow](https://developer.hashicorp.com/terraform/intro/core-workflow)
