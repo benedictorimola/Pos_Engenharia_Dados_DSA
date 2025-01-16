@@ -1,0 +1,35 @@
+# Instruções do Lab 1
+
+# Abra o terminal ou prompt de comando e navegue até a pasta onde você colocou os arquivos do Lab1 (não use espaço ou acento em nome de pasta)
+
+# Execute o comando abaixo para criar a imagem Docker
+docker build -t bamr-terraform-image:lab1 .
+# -t cria uma tag, conforme exemplos abaixo:
+# docker build -t dsa-terraform-image:lab1 .
+# docker build -t dsa-terraform-image:lab2 .
+
+# Execute o comando abaixo para criar o container Docker
+docker run -dit --name bamr-lab1 bamr-terraform-image:lab1
+# docker run -dit --name dsa-lab1 dsa-terraform-image:lab1 /bin/bash
+# -d (detached - background) 
+# -it acessar no modo interativo.  Pode fechar o terminal, mas o container contunuará em execução.
+# -- name <nome do container> <nome da imagem>
+
+
+# Verifique as versões do Terraform e do AWS CLI com os comandos abaixo
+terraform version
+aws --version
+
+# Validar o acesso à AWS
+- Acessar com as credenciais: aws configure
+- listar os buckets: aws s3 ls | awk '{print $NF}'
+
+# Criando uma instância EC2 com terraform
+# Acessae o docker no diretório lab1 e inicialize o terraform
+terraform init
+
+# Plano de execução do terraform
+terraform plan
+
+# Criação da infra com o terraform
+terraform apply
