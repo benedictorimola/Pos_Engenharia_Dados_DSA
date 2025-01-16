@@ -30,3 +30,9 @@ Projeto 2 - Deploy do Stack de Treinamento Distribuído de Machine Learning com 
 Projeto 3 - Deploy do Stack de Infraestrutura de Dados no Azure com Terraform \
 Projeto 4 - AWS e Azure Multi-Cloud Deploy com Terraform \
 Projeto 5 - Databricks Cluster Deploy com Terraform Para Processamento Distribuído
+
+__Links Uteis__ \
+[SIte Terraform](https://www.terraform.io/) \
+[Versões do Terraform](https://releases.hashicorp.com/terraform) \
+[Terraform Registry](https://registry.terraform.io/)
+- O Terraform Registry é um repositório público onde você pode encontrar e compartilhar módulos Terraform pré-construídos. 
