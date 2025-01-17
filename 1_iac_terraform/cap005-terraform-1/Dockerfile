@@ -20,8 +20,11 @@ RUN wget https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform
 # Criação da pasta lab2 no container
 RUN mkdir /lab2
 
-# Copia a parta local para a pasta lab2 no container
+# Copia a pasta local tarefa1 para a pasta lab2 no container
 COPY tarefa1/ /lab2/tarefa1/
+
+# Copia a pasta local tarefa2  para a pasta lab2 no container
+COPY tarefa2/ /lab2/tarefa2/
 
 # Criação da pasta Downloads para instalação do AWS CLI (acesso a AWS)
 RUN mkdir Downloads && \
