@@ -41,3 +41,4 @@ __Links Uteis__ \
 [Source Providers AWS](hashicorp/terraform-provider-aws) - git hub \
 [Terraform Resouruces](https://registry.terraform.io/browse/modules) - permite filtrar os recursos a serem utilizados \
 [Core Terraform Workflow](https://developer.hashicorp.com/terraform/intro/core-workflow)
+[Terraform Input Variables](https://developer.hashicorp.com/terraform/language/values/variables)
