@@ -129,3 +129,6 @@ Essa demonstração consiste na criação de um servidor web, através das taref
 As tarefas 2 e 3 possuem algumas simulações de erros, que implicam em ajustes nas instâncias EC2, via console. \
 Optei por documentar e exercitar a tarefa4, que é uma evolução das tarefas 2 e 3. \
 A tarefa 4, tem como insfraestrutura um servidor web em uma instância EC2, configurada, via script bash e associada a um security group.
+
+#### 2.2) Tarefa5
+Lab3 com criação de WebServer sem uso de provioners
