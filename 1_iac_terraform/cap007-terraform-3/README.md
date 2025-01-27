@@ -1,4 +1,4 @@
-# FUNdAMENTOS TERRAFORM - PARTE 3
+# FUNDAMENTOS TERRAFORM - PARTE 3
 
 ## 1) Terraform Provisioners
 
