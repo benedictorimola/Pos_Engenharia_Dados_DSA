@@ -1,4 +1,4 @@
-# 1) Projeto: criação de servidor web na AWS com uso de providers
+# 1) Projeto: criação de servidor web na AWS com uso de provisioner
 ### 1.1 Definição
 
 
