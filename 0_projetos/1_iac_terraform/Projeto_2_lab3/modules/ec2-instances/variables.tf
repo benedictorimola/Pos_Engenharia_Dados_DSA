@@ -11,7 +11,7 @@ variable "ami_cod" {
 variable "instance_tags" {
   description = "Create Instances with these names"
   type        = list(string)
-  default     = ["lab3-t1-terraform", "lab3-t2-terraform", "lab3-t3-terraform"]
+  default     = ["lab3-webserver-1", "lab3-webserver-2", "lab3-webserver-3"]
 }
 
 variable "arq_config" {
