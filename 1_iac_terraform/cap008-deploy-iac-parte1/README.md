@@ -1,5 +1,8 @@
 # DEPLOY COM IaC TERRAFORM - PARTE 1
 
+
+## [Arquitetura](https://github.com/benedictorimola/Pos_Engenharia_Dados_DSA/blob/main/1_iac_terraform/cap008-deploy-iac-parte1/Projeto_app.png)
+
 __Objetivo:__ \
 Desenvolver um processo completo de automação de uma aplicação com uma API fazendo a interação entre o front-end (página web) e o back-end (modelo de Machine Learning).
 
