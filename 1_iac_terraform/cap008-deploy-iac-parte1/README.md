@@ -1,4 +1,4 @@
-# DEPLOY COM IaC TERRAFORM - PARTE 1
+# DEPLOY AWS COM IaC TERRAFORM - PARTE 1
 
 
 ## [Arquitetura](https://github.com/benedictorimola/Pos_Engenharia_Dados_DSA/blob/main/1_iac_terraform/cap008-deploy-iac-parte1/Projeto_app.png)
