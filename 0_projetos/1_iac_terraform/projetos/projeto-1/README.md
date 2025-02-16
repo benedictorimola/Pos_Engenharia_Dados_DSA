@@ -236,13 +236,18 @@ Args="flink","run","-m","yarn-cluster",\
 --region us-east-2
 
 # 11.4) Efetue os pasos a seguir para recuperar o arquivo gerado, da mesma forma dos passos 10.1 a 10.4.
-# Acesse o cluster, via console, e para  e execute: 
+# Acesse o cluster, via console, execute cada comando abaixo: 
+
+# Recuperação de pastas criados
 hdfs dfs -ls /user/root/saidajob1/
 
+# Recuperação de pastas criados
 hdfs dfs -get /user/root/saidajob1/2025-02-15--19/part-4a55e911-e591-4a73-b55b-c6cbd1b60e7e-0
 
+# lista nome do arquivo
 ls
 
+# exibe o conteúdo do arquivo gerado.
 cat <NOME ARQUIVO recuperado no passo acima>
 
 # 11) Criação de job para execução, usando o S3 como armazenanto.  Essa ação será efetuada no container.
