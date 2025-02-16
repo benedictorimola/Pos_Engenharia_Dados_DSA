@@ -4,6 +4,8 @@
 ### ⚠️ **IMPORTANTE: Este projeto gera cobrança na AWS**
 Este projeto tem como objetivo desenvolver uma solução robusta e escalável para processamento de dados, utilizando as capacidades do **AWS EMR (Elastic MapReduce)** e do **framework Apache Flink**, implementando **Infrastructure as Code (IaC) com Terraform**.
 
+**A infraestrutura criada permitirá executar um job que faz análise de um texto e a totalização de cada palavra contida no texto.**
+
 ## **2. Aprendizado**
 Automatizar a configuração e o gerenciamento da infraestrutura necessária para executar pipelines de processamento de dados em lote e streaming. O projeto foca em lidar com grandes volumes de dados com **baixa latência**, garantindo eficiência e escalabilidade.
 
