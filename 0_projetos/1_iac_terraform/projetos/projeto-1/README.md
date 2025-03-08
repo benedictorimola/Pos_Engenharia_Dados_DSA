@@ -19,6 +19,8 @@ Os pacotes utilizados nesse projeto de criação de cluster serão:
 ## **3. Visão Geral**
 O código em **Terraform** provisiona um ambiente **AWS EMR** com suporte para **Flink, Hadoop, Zeppelin e Hive**, além de configurar toda a infraestrutura de **rede, segurança e acesso via SSH**.
 
+### **[Arquitetura do Projeto](https://github.com/benedictorimola/Pos_Engenharia_Dados_DSA/blob/main/0_projetos/1_iac_terraform/projetos/projeto-1/arquitetura_iac_projeto_1.png)** ###
+
 ## **4. Estrutura do Projeto**
 
 ### **4.1 Principais Recursos**
@@ -40,8 +42,15 @@ O código em **Terraform** provisiona um ambiente **AWS EMR** com suporte para *
    ```bash
    aws s3 mb s3://<nome_bucket>
    ```
-2. **Definição da Termination Policy:** Configuração da política de **auto-terminação** para evitar custos desnecessários.
+2. **Definição da Termination Policy:** Configuração da política de **auto-terminação** para evitar custos desnecessários. \
+Esta definição encontra-se no arquivo emr.tf
 
+```bash
+# Política de Auto-Terminação para encerrar automaticamente após tempo ocioso
+auto_termination_policy {
+  idle_timeout = 7200  # 120 minutos de inatividade
+}
+```
 ### **5.2 Criação do Container Docker**
 ```bash
 # Criar a imagem Docker
