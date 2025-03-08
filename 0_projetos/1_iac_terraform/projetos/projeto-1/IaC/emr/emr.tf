@@ -55,7 +55,7 @@ resource "aws_emr_cluster" "emr_cluster" {
 
   # Política de Auto-Terminação para encerrar automaticamente após tempo ocioso
   auto_termination_policy {
-    idle_timeout = 300  # 5 minutos de inatividade
+    idle_timeout = 7200  # 120 minutos de inatividade
   }
 
   lifecycle {
